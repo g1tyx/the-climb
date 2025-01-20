@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="/climb-test/favicon.ico?v=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Climb</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        padding-top: 20px;
+      }
+
+      .loading {
+        position: absolute;
+        margin: auto;
+        left: calc(50% + 2px);
+        transform: translateX(-50%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 1504px;
+        height: 752px;
+        background-color: #2d2e30;
+        z-index: 999;
+      }
+
+      .loader {
+        border: 5px solid white;
+        border-top: 5px solid #2d2e30;
+        border-radius: 50%;
+        width: 20px;
+        height: 20px;
+        animation: spin 1000ms linear infinite;
+      }
+
+      @keyframes spin {
+        0% {
+          transform: rotate(0deg);
+        }
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+    </style>
+    <script type="module" crossorigin src="/climb-test/assets/index-CIyF1Omy.js"></script>
+    <link rel="stylesheet" crossorigin href="/climb-test/assets/index-nRO6Cv7F.css">
+  </head>
+  <body>
+    <div id="loading" class="loading"><span class="loader"></span></div>
+    <div id="app"></div>
+  </body>
+  <script>
+    let preloadedImages = [];
+    window.onload = () => {
+      function preload(imageURLs) {
+        let toPreload = 239;
+        let preloaded = 0;
+        for (let i = 0; i < imageURLs.length; i++) {
+          preloadedImages[i] = new Image();
+          preloadedImages[i].src = imageURLs[i];
+          preloadedImages[i].onload = () => {
+            preloaded++;
+            if (preloaded >= toPreload) {
+              document.getElementById("loading").style.display = "none";
+            }
+          };
+        }
+      }
+
+      let toPreload = ["/climb-test/img/adventurers_guild.png","/climb-test/img/alchemy.png","/climb-test/img/angel_killed_achievement.png","/climb-test/img/antidote.png","/climb-test/img/arcane_bolt.png","/climb-test/img/awaken.png","/climb-test/img/bandage.png","/climb-test/img/basement.png","/climb-test/img/bat.png","/climb-test/img/bat_wing.png","/climb-test/img/bear.png","/climb-test/img/bear_cloak.png","/climb-test/img/blacksmithing.png","/climb-test/img/bleeding.png","/climb-test/img/blessing.png","/climb-test/img/blessing_charisma.png","/climb-test/img/blessing_fortitude.png","/climb-test/img/blessing_heirloom.png","/climb-test/img/blessing_magic.png","/climb-test/img/blessing_power.png","/climb-test/img/blessing_rank.png","/climb-test/img/blessing_rune.png","/climb-test/img/blessing_workshop.png","/climb-test/img/bone.png","/climb-test/img/bone_dust.png","/climb-test/img/book.png","/climb-test/img/burning.png","/climb-test/img/buy.png","/climb-test/img/card.png","/climb-test/img/cave.png","/climb-test/img/chicken.png","/climb-test/img/cloth.png","/climb-test/img/coin_copper.png","/climb-test/img/coin_gold.png","/climb-test/img/coin_silver.png","/climb-test/img/cooked_meat.png","/climb-test/img/cooked_rat_meat.png","/climb-test/img/cooking.png","/climb-test/img/craftsman_district.png","/climb-test/img/damage_reduction.png","/climb-test/img/day.png","/climb-test/img/defense-earth.png","/climb-test/img/defense-fire.png","/climb-test/img/defense-holy.png","/climb-test/img/defense-neutral.png","/climb-test/img/defense-shadow.png","/climb-test/img/defense-water.png","/climb-test/img/defense-wind.png","/climb-test/img/defense.png","/climb-test/img/demon_killed_achievement.png","/climb-test/img/dexterity.png","/climb-test/img/diagram.png","/climb-test/img/dragon_killed_achievement.png","/climb-test/img/dry_bread.png","/climb-test/img/earring_blue.png","/climb-test/img/earring_iron.png","/climb-test/img/earring_iron_blue.png","/climb-test/img/earth.png","/climb-test/img/enchant.png","/climb-test/img/enchanting.png","/climb-test/img/enter.png","/climb-test/img/equipment_accessory_left.png","/climb-test/img/equipment_accessory_right.png","/climb-test/img/equipment_amulet.png","/climb-test/img/equipment_armor.png","/climb-test/img/equipment_garment.png","/climb-test/img/equipment_headgear.png","/climb-test/img/equipment_headgear3.png","/climb-test/img/equipment_locked.png","/climb-test/img/equipment_offhand.png","/climb-test/img/equipment_rune.png","/climb-test/img/equipment_shoes.png","/climb-test/img/equipment_weapon.png","/climb-test/img/evening.png","/climb-test/img/exclamation_mark.png","/climb-test/img/favorite.png","/climb-test/img/feather.png","/climb-test/img/feather_pen.png","/climb-test/img/feed.png","/climb-test/img/fight.png","/climb-test/img/fire.png","/climb-test/img/fire_arrow.png","/climb-test/img/fish_killed_achievement.png","/climb-test/img/floor_1_boss.png","/climb-test/img/floor_2_boss.png","/climb-test/img/floor_3_boss.png","/climb-test/img/floor_4_boss.png","/climb-test/img/floor_5_boss.png","/climb-test/img/forest.png","/climb-test/img/fragment_earth.png","/climb-test/img/fragment_fire.png","/climb-test/img/fragment_holy.png","/climb-test/img/fragment_mana.png","/climb-test/img/fragment_shadow.png","/climb-test/img/fragment_water.png","/climb-test/img/fragment_wind.png","/climb-test/img/hatred-earth.png","/climb-test/img/hatred-fire.png","/climb-test/img/hatred-holy.png","/climb-test/img/hatred-shadow.png","/climb-test/img/hatred-water.png","/climb-test/img/hatred-wind.png","/climb-test/img/heal.png","/climb-test/img/healing_potion.png","/climb-test/img/health.png","/climb-test/img/herb.png","/climb-test/img/hide.png","/climb-test/img/holy.png","/climb-test/img/home.png","/climb-test/img/humanoid_killed_achievement.png","/climb-test/img/hunter_cabin.png","/climb-test/img/hunting_bow.png","/climb-test/img/intelligence.png","/climb-test/img/iron_armor.png","/climb-test/img/iron_boots.png","/climb-test/img/iron_helmet.png","/climb-test/img/iron_ingot.png","/climb-test/img/iron_ore.png","/climb-test/img/iron_sword.png","/climb-test/img/iron_vein.png","/climb-test/img/item_slime.png","/climb-test/img/jewelcrafting.png","/climb-test/img/job_board.png","/climb-test/img/leather.png","/climb-test/img/leatherworking.png","/climb-test/img/leather_armor.png","/climb-test/img/leather_hat.png","/climb-test/img/leather_shoes.png","/climb-test/img/leave.png","/climb-test/img/lock.png","/climb-test/img/magical_defense.png","/climb-test/img/mana.png","/climb-test/img/mana_2.png","/climb-test/img/mana_potion.png","/climb-test/img/meditation.png","/climb-test/img/mine.png","/climb-test/img/minor_healing_potion.png","/climb-test/img/minor_mana_potion.png","/climb-test/img/money.png","/climb-test/img/morning.png","/climb-test/img/mountain_goat.png","/climb-test/img/neutral.png","/climb-test/img/night.png","/climb-test/img/novice_hat.png","/climb-test/img/novice_robe.png","/climb-test/img/novice_shoes.png","/climb-test/img/novice_staff.png","/climb-test/img/novice_tome.png","/climb-test/img/novice_tome_page.png","/climb-test/img/poison.png","/climb-test/img/pristine_bear_pelt.png","/climb-test/img/question_mark.png","/climb-test/img/quiver.png","/climb-test/img/rabbit.png","/climb-test/img/rabbit_fur.png","/climb-test/img/rat.png","/climb-test/img/rat_meat.png","/climb-test/img/rat_tail.png","/climb-test/img/raw_hide.png","/climb-test/img/raw_meat.png","/climb-test/img/reception.png","/climb-test/img/red-cross.png","/climb-test/img/ring_blue.png","/climb-test/img/ring_green.png","/climb-test/img/ring_iron.png","/climb-test/img/ring_iron_blue.png","/climb-test/img/ring_red.png","/climb-test/img/ruined_bear_pelt.png","/climb-test/img/rune.png","/climb-test/img/save-bad.png","/climb-test/img/save-good.png","/climb-test/img/scroll.png","/climb-test/img/second_wind.png","/climb-test/img/separator.png","/climb-test/img/settings.png","/climb-test/img/shadow.png","/climb-test/img/shadow_hound.png","/climb-test/img/shard_mana.png","/climb-test/img/show.png","/climb-test/img/silence.png","/climb-test/img/skull.png","/climb-test/img/sleep.png","/climb-test/img/slime.png","/climb-test/img/slimelord.png","/climb-test/img/slimelord_earth.png","/climb-test/img/slimelord_fire.png","/climb-test/img/slimelord_holy.png","/climb-test/img/slimelord_shadow.png","/climb-test/img/slimelord_water.png","/climb-test/img/slimelord_wind.png","/climb-test/img/slimer.png","/climb-test/img/slimer_earth.png","/climb-test/img/slimer_fire.png","/climb-test/img/slimer_holy.png","/climb-test/img/slimer_shadow.png","/climb-test/img/slimer_water.png","/climb-test/img/slimer_wind.png","/climb-test/img/slime_earth.png","/climb-test/img/slime_fire.png","/climb-test/img/slime_holy.png","/climb-test/img/slime_shadow.png","/climb-test/img/slime_water.png","/climb-test/img/slime_wind.png","/climb-test/img/speed0.png","/climb-test/img/speed1.png","/climb-test/img/speed2.png","/climb-test/img/speed3.png","/climb-test/img/spider.png","/climb-test/img/spider_silk.png","/climb-test/img/stone_bullet.png","/climb-test/img/strength.png","/climb-test/img/string.png","/climb-test/img/stun.png","/climb-test/img/tailoring.png","/climb-test/img/talk.png","/climb-test/img/talk2.png","/climb-test/img/tavern.png","/climb-test/img/test_armor.png","/climb-test/img/throwing_stone.png","/climb-test/img/tower.png","/climb-test/img/training_dummy.png","/climb-test/img/training_sword.png","/climb-test/img/tree.png","/climb-test/img/undead_killed_achievement.png","/climb-test/img/warthog.png","/climb-test/img/water-element.png","/climb-test/img/water.png","/climb-test/img/water_splash.png","/climb-test/img/weed.png","/climb-test/img/wind.png","/climb-test/img/wind_blast.png","/climb-test/img/wolf.png","/climb-test/img/wolf_fang.png","/climb-test/img/wolf_fang_amulet.png","/climb-test/img/wood.png","/climb-test/img/wooden_armguard.png","/climb-test/img/wooden_shield.png","/climb-test/img/woodworking.png","/climb-test/img/wool.png",];
+      preload(toPreload);
+
+      setInterval(() => {
+        preload(toPreload);
+      }, 5 * 60 * 1000);
+    };
+  </script>
+</html>
