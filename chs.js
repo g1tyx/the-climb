@@ -13,7 +13,7 @@
 var cnItems = {
     _OTHER_: [],
 
-    //未分类：
+    //未分类: 
     'Save': '保存',
     'Export': '导出',
     'Import': '导入',
@@ -119,8 +119,8 @@ var cnItems = {
     "Unremarkable": "平平无奇",
     "Vitals": "生命值",
     " Stats": "属性",
-    ": Press shift to show controls overlay, this allows you to set item as favorite, hide it into the hidden tab, delete it and later in the game - feed it. Use right click on inventory filters to use them as toggles instead of tabs.": "：按shift显示控件覆盖，这可以让你设置物品为收藏，隐藏到隐藏标签，删除它，后来在游戏中提供它。在库存过滤器上使用右键将它们用作开关而不是选项卡。",
-    ": Some actions will remove equipment from your inventory (completing quests, feeding). These actions only count and remove clean equipment. An equipment is clean when it has no experience, no rank, no socketed enchant (or card) and is not an heirloom (except runes), equipped, favorite or hidden. It's basically a new piece of equipment you have not interacted with.": "：一些动作会从你的库存中移除装备（完成任务，喂养）。这些动作只计算和移除干净的装备。当一个装备没有经验，没有等级，没有嵌套的附魔（或卡牌），不是传家宝（除了符文），装备，最爱或隐藏时，它就是干净的。它基本上是一个你没有与之互动的新装备。",
+    ": Press shift to show controls overlay, this allows you to set item as favorite, hide it into the hidden tab, delete it and later in the game - feed it. Use right click on inventory filters to use them as toggles instead of tabs.": ": 按shift显示控件覆盖，这可以让你设置物品为收藏，隐藏到隐藏标签，删除它，后来在游戏中提供它。在库存过滤器上使用右键将它们用作开关而不是选项卡。",
+    ": Some actions will remove equipment from your inventory (completing quests, feeding). These actions only count and remove clean equipment. An equipment is clean when it has no experience, no rank, no socketed enchant (or card) and is not an heirloom (except runes), equipped, favorite or hidden. It's basically a new piece of equipment you have not interacted with.": ": 一些动作会从你的库存中移除装备（完成任务，喂养）。这些动作只计算和移除干净的装备。当一个装备没有经验，没有等级，没有嵌套的附魔（或卡牌），不是传家宝（除了符文），装备，最爱或隐藏时，它就是干净的。它基本上是一个你没有与之互动的新装备。",
     "Pause": "暂停",
     "Pauses the game.": "暂停游戏。",
     "Intelligence": "智力",
@@ -141,7 +141,7 @@ var cnItems = {
     "Armor Element": "护甲元素",
     "About": "关于",
     "Clean items": "清理物品",
-    ": Pressing 0-9 while hovering over an item allows you to set a hotkey. Using the hotkey uses the item. You can also hold the hotkey for rapid usage.": "：当鼠标悬停在一个项目上时按0-9键可以设置一个热键。使用热键可以使用该项。也可以按住热键快速使用。",
+    ": Pressing 0-9 while hovering over an item allows you to set a hotkey. Using the hotkey uses the item. You can also hold the hotkey for rapid usage.": ": 当鼠标悬停在一个项目上时按0-9键可以设置一个热键。使用热键可以使用该项。也可以按住热键快速使用。",
     "A jug of enchanted water, effective at dousing basic magical fire.": "一壶施了魔法的水，能有效地扑灭基本的魔法火焰。",
     "A piece of dry bread. Somewhat filling, no risk of food poisoning, cheap. Nothing to complain about, right? Right?": "一块干面包。有点饱腹感，没有食物中毒的风险，便宜。没什么好抱怨的，对吧？对吧?",
     "Alternatively, you can press and hold the shift key.": "或者，您也可以按住shift键。",
@@ -243,7 +243,7 @@ var cnItems = {
     "Leave Home": "离开家",
     "Sleep": "睡觉",
     "Workshop": "作坊",
-    "Your current regeneration per tick:": "你当前每刻回复：",
+    "Your current regeneration per tick:": "你当前每刻回复: ",
     "The current date and time of the game, the format is y/m/d.": "当前游戏的日期和时间，格式为 年/月/日。",
     "Status Effects": "状态效果",
     "Mana Used:": "使用的法力:",
@@ -271,8 +271,7 @@ var cnItems = {
     "Level Up": "升级了",
     "Get up": "起床",
     "Bed": "床",
-    "Item acquired:": "获得物品：",
-    "Rat has been slain": "老鼠已被击杀",
+    "Item acquired:": "获得物品: ",
     "Warm bed": "温暖的床",
     "You have been knocked out.": "你被击倒了。",
     "Material": "材料",
@@ -287,7 +286,7 @@ var cnItems = {
     "Sleep until morning": "睡到天亮",
     "The bleeding resistance of the enemy. Reduced the amount you deal with bleeding (percentage).": "敌人的流血抵抗。减少你造成的出血伤害的数量（百分比）。",
     "The burning resistance of the enemy. Reduced the amount you deal with burning (percentage).": "敌人的燃烧抗性。减少你造成的燃烧伤害的数量（百分比）。",
-    "The element of the enemy's armor. Affects damage dealt based on your weapon element or spell element.": "装甲：敌人盔甲的组成部分影响基于你的武器元素或法术元素造成的伤害。",
+    "The element of the enemy's armor. Affects damage dealt based on your weapon element or spell element.": "装甲: 敌人盔甲的组成部分影响基于你的武器元素或法术元素造成的伤害。",
     "The element of the enemy's weapon. Affects damage received based on your armor element.": "敌人武器的组成部分。根据你的护甲元素影响受到的伤害。",
     "The poison resistance of the enemy. Reduced the amount you deal with poison (percentage).": "敌人对毒药的抵抗力。减少你造成的毒药的数量（百分比）。",
     "The race of the enemy. Affects damage dealt based on your hatred stat.": "敌人的种族。影响基于你的仇恨属性造成的伤害。",
@@ -324,7 +323,7 @@ var cnItems = {
     "Enchants": "附魔",
     "Therefore, not many people use runes, most just stick to scrolls. While expensive, it's less expensive than learning rune carving. And you also don't need to study the runestones themselves.": "因此，没有多少人使用符文，大多数人只是坚持使用卷轴。虽然很贵，但比学习符文雕刻要便宜。你也不需要研究符文石本身。",
     "Paying attention to elements is important. Elements are weak to some, while resistant against others. For example, attacking an enemy having fire armor with a fire attack will not be very effective, same goes for fire attack and water enemy.": "注意元素很重要。元素对某些元素是弱的，而对另一些元素是抵抗的。例如，用火力攻击攻击拥有火甲的敌人不会很有效，同样的道理也适用于火力攻击和水敌人。",
-    "For those the tower also has an answer: magic! The first delvers found huge runestones on some of the floors. After further study they realized those runestones held secrets of actual magic": "对这些人来说，这座塔也有一个答案：魔法！第一批运送者在一些地板上发现了巨大的符文石。经过进一步的研究，他们意识到这些符文石藏有真正魔法的秘密",
+    "For those the tower also has an answer: magic! The first delvers found huge runestones on some of the floors. After further study they realized those runestones held secrets of actual magic": "对这些人来说，这座塔也有一个答案: 魔法！第一批运送者在一些地板上发现了巨大的符文石。经过进一步的研究，他们意识到这些符文石藏有真正魔法的秘密",
     "Leave": "离开",
     "Leave Tower": "离开塔",
     "Making money": "赚钱",
@@ -340,9 +339,9 @@ var cnItems = {
     "Getting stronger": "变得更强",
     "Each runestone explains the secrets of using magic, specifically a single spell. After studying it completely, one can produce spell scrolls. Scrolls are a consumable item that allows one to cast the spell once. Anyone can use scrolls, but only those who studied the runestone can make them.": "每个符文石都解释了使用魔法的秘密，特别是一个咒语。学习完之后，就可以制作魔法卷轴了。卷轴是一种可消耗的道具，允许玩家使用一次法术。任何人都可以使用卷轴，但只有那些研究过符文石的人才能制作卷轴。",
     "Acquiring equipment": "获取装备",
-    "(Attacking same element - fire vs fire: 0.25x)": "（攻击同一元素-火对火：0.25倍）",
-    "(Attacking with strong element - fire vs earth: 1.5x)": "（使用强元素攻击-火对土：1.5倍）",
-    "(Attacking with weak element - fire vs water: 0.5x)": "（攻击弱元素-火对水：0.5倍）",
+    "(Attacking same element - fire vs fire: 0.25x)": "（攻击同一元素-火对火: 0.25倍）",
+    "(Attacking with strong element - fire vs earth: 1.5x)": "（使用强元素攻击-火对土: 1.5倍）",
+    "(Attacking with weak element - fire vs water: 0.5x)": "（攻击弱元素-火对水: 0.5倍）",
     "(Fire > Earth > Wind > Water > Fire > ...)": "（火>土>风>水>火>…）",
     "(Holy and Shadow are each other's weakness, meaning holy vs shadow is 1.5x and shadow vs holy is 1.5x)": "（神圣和暗影是彼此的弱点，意味着神圣vs暗影是1.5倍，暗影vs神圣是1.5倍）",
     "(Neutral is not weak nor strong against anything)": "（中立既不是弱也不是强）",
@@ -385,7 +384,6 @@ var cnItems = {
     "They do come with two huge advantages though - they are permanent and they grow in power the more you use them.": "不过，它们确实有两个巨大的优势——它们是永久性的，而且你使用得越多，它们的威力就越大。",
     "They fight back": "他们反击了",
     "Third, they usually require more mana to use, the reason for that is unknown.": "第三，他们通常需要更多的魔法来使用，原因尚不清楚。",
-    "Training Dummy has been slain": "训练假人被击杀了",
     "When you obtain a card of specific creature for the very first time, it is as if you have learned everything there is about the creature.": "当你第一次获得一张特定生物的卡牌时，就好像你已经了解了关于该生物的一切。",
     "Where the useless become less useless (hopefully)": "让无用变得不那么无用（希望如此）",
     "While most people love money and are attracted by the profits possible only by climbing the tower, there are those who have no interest in worldly possessions.": "虽然大多数人都爱钱，并被攀上高塔可能带来的利润所吸引，但也有一些人对世俗的财富不感兴趣。",
@@ -442,7 +440,7 @@ var cnItems = {
     "Leave Craftsman district": "离开工匠区",
     "Leave Job board": "离开求职板",
     "Leo's Tannery": "里奥的制革厂",
-    "MAX": "Max",
+    "MAX": "最大",
     "Minor Healing Potion": "小型治疗药水",
     "Misha's Threads": "米莎的线",
     "MP Regeneration": "法力值恢复",
@@ -477,6 +475,27 @@ var cnItems = {
     "Reception": "服务台",
     "Which request would you like to turn in?": "您想提交哪项请求？",
     "Will instantly complete all quests that you meet the requirements for.": "会立即完成所有符合要求的任务。",
+    "A small cabin can be seen in the distance": "远处可以看到一间小木屋",
+    "Forest Clearing": "森林空地",
+    "Forest Outskirts": "森林外围",
+    "Gather Herbs": "采集药草",
+    "Harvest Wood": "采集木材",
+    "Hunter's Cabin": "猎人的小屋",
+    "Leave Forest Clearing": "离开森林空地",
+    "Not enough money": "没有足够的钱",
+    "Ask about the whereabouts": "询问下落",
+    "But don't go in too deep, some of the creatures in the depths are really dangerous. There have even been sightings of a huge bear...": "但不要深入太深，深处的一些生物真的很危险。甚至有人看到过一只巨大的熊……",
+    "Close to the clearing, pretty safe area with some small game.": "靠近空地，很安全，有一些小猎物。",
+    "Close to the clearing, safe area to gather some wood.": "靠近空地，在安全的地方收集一些木材。",
+    "Hello there, anything you need?": "你好，有什么需要吗？",
+    "Hunt": "狩猎",
+    "Leave Forest Outskirts": "离开森林外围",
+    "Leave Hunter's Cabin": "离开猎人小屋",
+    "Meat, hides, bones and wood can all be obtained here.": "肉、兽皮、骨头和木头都可以在这里获得。",
+    "The walls are decorated by hunting trophies.": "墙上装饰着狩猎战利品。",
+    "Tree": "树",
+    "Well, you are in a forest, you can get a lot of useful things here.": "嗯，你在森林里，你可以在这里得到很多有用的东西。",
+    "Close to the clearing, safe area to gather some very basic herbs... among the thousands of weeds.": "靠近空地，安全的地方收集一些非常基本的草药…在成千上万的杂草中。",
     "": "",
     "": "",
     "": "",
@@ -534,31 +553,9 @@ var cnItems = {
     "": "",
     "": "",
     "": "",
-    "": "",
-    "": "",
-    "": "",
-    "": "",
-    "": "",
-    "": "",
-    "": "",
-    "": "",
-    "": "",
-    "": "",
-    "": "",
-    "": "",
-    "": "",
-    "": "",
-    "": "",
-    "": "",
-    "": "",
-    "": "",
-    "": "",
-    "": "",
-    "": "",
-    "": "",
-    "": "",
-    "": "",
-    "": "",
+    "Weed": "杂草",
+    "Chicken": "鸡",
+    "Rabbit": "兔子",
     "Slayer": "杀手",
     "Poison Bite": "毒咬",
     "Ouch": "哎哟",
@@ -724,8 +721,8 @@ var cnItems = {
 
 
 //需造成的的前缀，此处可以截取语句开头部分的内容进行汉化
-//例如：Coin: 13、Coin: 14、Coin: 15... 这种有相同开头的语句
-//可以在这里汉化开头："Coin: ":"金币: "
+//例如: Coin: 13、Coin: 14、Coin: 15... 这种有相同开头的语句
+//可以在这里汉化开头: "Coin: ":"金币: "
 var cnPrefix = {
     "\n": "\n",
     "                   ": "",
@@ -752,18 +749,18 @@ var cnPrefix = {
     "\n\n\t\t": "\n\n\t\t",
     "\n\t\t": "\n\t\t",
     "\t": "\t",
-    "Show Milestones: ": "显示里程碑：",
+    "Show Milestones: ": "显示里程碑: ",
     "Autosave: ": "自动保存: ",
     "Offline Prod: ": "离线生产: ",
     "Completed Challenges: ": "完成的挑战: ",
     "High-Quality Tree: ": "高质量树贴图: ",
     "Offline Time: ": "离线时间: ",
     "Theme: ": "主题: ",
-    "Anti-Epilepsy Mode: ": "抗癫痫模式：",
-    "In-line Exponent: ": "直列指数：",
-    "Single-Tab Mode: ": "单标签模式：",
-    "Time Played: ": "已玩时长：",
-    "Shift-Click to Toggle Tooltips: ": "Shift-单击以切换工具提示：",
+    "Anti-Epilepsy Mode: ": "抗癫痫模式: ",
+    "In-line Exponent: ": "直列指数: ",
+    "Single-Tab Mode: ": "单标签模式: ",
+    "Time Played: ": "已玩时长: ",
+    "Shift-Click to Toggle Tooltips: ": "Shift-单击以切换工具提示: ",
     "Notation: ": "符号: ",
     "Toggle Music: ": "切换声音: ",
     "Player": "玩家",
@@ -777,16 +774,23 @@ var cnPrefix = {
     "Duration: ": "持续时间: ",
     "Basement: ": "地下室: ",
     " hit Rat for ": " 对 老鼠 造成伤害 ",
+    " hit Rabbit for ": " 对 兔子 造成伤害 ",
+    " hit Chicken for ": " 对 鸡 造成伤害 ",
+    " hit Weed for ": " 对 杂草 造成伤害 ",
+    " hit Tree for ": " 对 树 造成伤害 ",
     " hit Training Dummy for ": " 对 训练假人 造成伤害 ",
     "EXP + ": "经验值 + ",
     "New achievement unlocked! ": "新成就解锁了! ",
+    "Chicken hit Player for ": "鸡 击中了 玩家 并造成伤害 ",
     "Rat hit Player for ": "老鼠 击中了 玩家 并造成伤害 ",
+    "Rabbit hit Player for ": "兔子 击中了 玩家 并造成伤害 ",
     "Rat used ": "老鼠使用了 ",
     "<": "<",
     "Training Grounds: ": "训练场: ",
     "Training Dummy hit Player for ": "训练假人 击中 玩家 并造成伤害 ",
-    "Next contracts at: ": "下一次合同时间：",
-    "Reputation: ": "声誉：",
+    "Next contracts at: ": "下一次合同时间: ",
+    "Reputation: ": "声誉: ",
+    "Forest Outskirts: ": "森林外围: ",
     "": "",
     "": "",
     "": "",
@@ -810,8 +814,8 @@ var cnPrefix = {
 }
 
 //需造成的的后缀，此处可以截取语句结尾部分的内容进行汉化
-//例如：13 Coin、14 Coin、15 Coin... 这种有相同结尾的语句
-//可以在这里汉化结尾：" Coin":" 金币"
+//例如: 13 Coin、14 Coin、15 Coin... 这种有相同结尾的语句
+//可以在这里汉化结尾: " Coin":" 金币"
 var cnPostfix = {
     "                   ": "",
     "                  ": "",
@@ -859,6 +863,7 @@ var cnPostfix = {
     " race. Each point equals 1% damage increase.": " 种族敌人造成的伤害。每增加1点相当于增加1%的伤害。",
     " element. Each point equals 1% damage increase.": " 元素敌人造成的伤害。每增加1点相当于增加1%的伤害。",
     " attacks. Each point equals 1% damage increase.": " 攻击敌人造成的伤害。每增加1点相当于增加1%的伤害。",
+    " has been slain": " 已被击杀",
     ",": ",",
     "": "",
     "": "",
@@ -943,13 +948,13 @@ var cnExcludePostfix = [
 ]
 
 //正则替换，带数字的固定格式句子
-//纯数字：(\d+)
-//字母加数字：([\d\.]+[A-Za-z])
-//逗号：([\d\.,]+)
-//小数点：([\d\.]+)
-//原样输出的字段：(.+)
-//换行加空格：\n(.+)
-//&nbsp;空格：\xA0
+//纯数字: (\d+)
+//字母加数字: ([\d\.]+[A-Za-z])
+//逗号: ([\d\.,]+)
+//小数点: ([\d\.]+)
+//原样输出的字段: (.+)
+//换行加空格: \n(.+)
+//&nbsp;空格: \xA0
 var cnRegReplace = new Map([
     [/^([\d\.]+) hours ([\d\.]+) minutes ([\d\.]+) seconds$/, '$1 小时 $2 分钟 $3 秒'],
     [/^You are gaining (.+) elves per second$/, '你每秒获得 $1 精灵'],
@@ -994,10 +999,10 @@ var cnRegReplace = new Map([
     [/^level: ([\d\.,]+) \/ ([\d\.,]+)$/, '等级 $1 \/ $2'],
     [/^\*(.+) to electricity gain$/, '\*$1 到电力增益'],
     [/^(.+) reputation required.$/, '$1 声誉要求。'],
-    [/^Cost: (.+) points$/, '成本：$1 点数'],
-    [/^Req: (.+) elves$/, '要求：$1 精灵'],
-    [/^Req: (.+) \/ (.+) elves$/, '要求：$1 \/ $2 精灵'],
-    [/^Usages: (\d+)\/$/, '用途：$1\/'],
-    [/^workers: (\d+)\/$/, '工人：$1\/'],
+    [/^Cost: (.+) points$/, '成本: $1 点数'],
+    [/^Req: (.+) elves$/, '要求: $1 精灵'],
+    [/^Req: (.+) \/ (.+) elves$/, '要求: $1 \/ $2 精灵'],
+    [/^Usages: (\d+)\/$/, '用途: $1\/'],
+    [/^workers: (\d+)\/$/, '工人: $1\/'],
 
 ]);
