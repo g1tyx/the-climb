@@ -943,7 +943,7 @@ var cnItems = {
     "Mountain Goat": "山羊",
     "Mountain Goat used <Impale": "山羊 使用了 <刺穿",
     "Wolf": "狼",
-    "Causes": "原因",
+    "Causes": "导致",
     "A venomous bite.": "剧毒的咬伤。",
     "Bone extracted from medium-sized beast. Can be processed in multiple ways.": "从中型野兽身上提取的骨头。可以以多种方式处理。",
     "Just 5 more minutes...": "再给我5分钟…",
