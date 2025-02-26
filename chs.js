@@ -1893,6 +1893,8 @@ var cnRegReplace = new Map([
     [/^Kill (.+) construct enemies.$/, '击杀 $1 结构敌人。'],
     [/^Kill (.+) beast enemies.$/, '击杀 $1 野兽敌人。'],
     [/^Kill (.+) plant enemies.$/, '击杀 $1 植物敌人。'],
+    [/^Kill (.+) insect enemies.$/, '击杀 $1 昆虫敌人。'],
+    [/^Kill (.+) formless enemies.$/, '击杀 $1 无形敌人。'],
     [/^Kill (.+) enemies.$/, '击杀 $1 敌人。'],
     [/^Deal (.+) fire damage.$/, '造成 $1 火系 伤害。'],
     [/^Deal (.+) earth damage.$/, '造成 $1 土系 伤害。'],
