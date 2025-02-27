@@ -755,7 +755,7 @@ var cnItems = {
     "Arcane Bolt.": "奥术弩箭。",
     "A dark, dungeon-like space. Some strange creatures can be seen roaming around.": "一个黑暗、地牢般的空间。可以看到一些奇怪的生物在周围游荡。",
     "An arrow made of fire.": "用火制成的箭。",
-    "as magical damage": "火焰伤害",
+    "as magical damage": "魔法伤害",
     "Deals 200% of": "造成 200% 的",
     "Explore deeper": "深入探索",
     "Fire Arrow": "火焰箭",
