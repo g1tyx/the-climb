@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="./favicon.ico?v=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Climb</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        padding: 0;
+        margin: 0;
+      }
+
+      .loading {
+        position: absolute;
+        margin: auto;
+        top: calc(30px - 2px);
+        left: calc(50% + 2px);
+        transform: translateX(-50%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 1514px;
+        height: 760px;
+        background-color: #2d2e30;
+        z-index: 999;
+      }
+
+      .loader {
+        border: 5px solid white;
+        border-top: 5px solid #2d2e30;
+        border-radius: 50%;
+        width: 20px;
+        height: 20px;
+        animation: spin 1000ms linear infinite;
+      }
+
+      @keyframes spin {
+        0% {
+          transform: rotate(0deg);
+        }
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+    </style>
+    <script type="module" crossorigin src="./assets/index-B-sH2ct2.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-CEcef7O2.css">
+    <link rel="stylesheet" crossorigin href="./css/moyu.css">
+  </head>
+  <body>
+    <script src="chs.js"></script>
+    <script src="core.js"></script>
+    <div id="loading" class="loading"><span class="loader"></span></div>
+    <div id="app"></div>
+<!--客服 开始-->
+<script src="//g8hh.github.io/static/js/jquery.min.js"></script>
+<link rel="stylesheet" href="//g8hh.github.io/static/css/kf.css" type="text/css" media="screen" charset="utf-8">
+<script src="//g8hh.github.io/static/js/kf.js"></script>
+<!-- 客服 结束 -->
+<!--站长统计--> 
+<div style="display: none">
+    <script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?028b1b5f659ed138230f4cafd7ad0dfc";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+    </div>
+
+  </body>
+  <script>
+    let preloadedImages = [];
+    window.onload = () => {
+      function preload(imageURLs) {
+        let toPreload = 252;
+        let preloaded = 0;
+        for (let i = 0; i < imageURLs.length; i++) {
+          preloadedImages[i] = new Image();
+          preloadedImages[i].src = imageURLs[i];
+          preloadedImages[i].onload = () => {
+            preloaded++;
+            if (preloaded >= toPreload) {
+              document.getElementById("loading").style.display = "none";
+            }
+          };
+        }
+      }
+
+      let toPreload = ["./img/adventurers_guild.png","./img/alchemy.png","./img/angel_killed_achievement.png","./img/antidote.png","./img/arcane_bolt.png","./img/awaken.png","./img/bandage.png","./img/basement.png","./img/bat.png","./img/bat_wing.png","./img/bear.png","./img/bear_cloak.png","./img/blacksmithing.png","./img/bleeding.png","./img/blessing.png","./img/blessing_charisma.png","./img/blessing_fortitude.png","./img/blessing_heirloom.png","./img/blessing_magic.png","./img/blessing_power.png","./img/blessing_rank.png","./img/blessing_rune.png","./img/blessing_workshop.png","./img/boar_tusk.png","./img/bone.png","./img/bone_dust.png","./img/book.png","./img/burning.png","./img/buy.png","./img/card.png","./img/cave.png","./img/chicken.png","./img/cloth.png","./img/coin_copper.png","./img/coin_gold.png","./img/coin_silver.png","./img/cooked_meat.png","./img/cooked_rat_meat.png","./img/cooking.png","./img/craftsman_district.png","./img/damage_reduction.png","./img/day.png","./img/defense-earth.png","./img/defense-fire.png","./img/defense-holy.png","./img/defense-neutral.png","./img/defense-shadow.png","./img/defense-water.png","./img/defense-wind.png","./img/defense.png","./img/demon_killed_achievement.png","./img/dexterity.png","./img/diagram.png","./img/dragon_killed_achievement.png","./img/dry_bread.png","./img/earring_blue.png","./img/earring_iron.png","./img/earring_iron_blue.png","./img/earth.png","./img/enchant.png","./img/enchanted_water.png","./img/enchanting.png","./img/enter.png","./img/equipment_accessory_left.png","./img/equipment_accessory_right.png","./img/equipment_amulet.png","./img/equipment_armor.png","./img/equipment_garment.png","./img/equipment_headgear.png","./img/equipment_headgear3.png","./img/equipment_locked.png","./img/equipment_offhand.png","./img/equipment_rune.png","./img/equipment_shoes.png","./img/equipment_weapon.png","./img/evening.png","./img/exclamation_mark.png","./img/experience.png","./img/favorite.png","./img/feather.png","./img/feather_pen.png","./img/feed.png","./img/felling_axe.png","./img/fight.png","./img/fire.png","./img/fire_arrow.png","./img/fish_killed_achievement.png","./img/floor_1_boss.png","./img/floor_2_boss.png","./img/floor_3_boss.png","./img/floor_4_boss.png","./img/floor_5_boss.png","./img/forest.png","./img/fragment_earth.png","./img/fragment_fire.png","./img/fragment_holy.png","./img/fragment_mana.png","./img/fragment_shadow.png","./img/fragment_water.png","./img/fragment_wind.png","./img/goat_horn.png","./img/hatred-earth.png","./img/hatred-fire.png","./img/hatred-holy.png","./img/hatred-shadow.png","./img/hatred-water.png","./img/hatred-wind.png","./img/heal.png","./img/healing_potion.png","./img/health.png","./img/herb.png","./img/hide.png","./img/holy.png","./img/home.png","./img/humanoid_killed_achievement.png","./img/hunter_cabin.png","./img/hunting_bow.png","./img/intelligence.png","./img/iron_armor.png","./img/iron_boots.png","./img/iron_helmet.png","./img/iron_ingot.png","./img/iron_ore.png","./img/iron_sword.png","./img/iron_vein.png","./img/item_slime.png","./img/jewelcrafting.png","./img/job_board.png","./img/leather.png","./img/leatherworking.png","./img/leather_armor.png","./img/leather_hat.png","./img/leather_shoes.png","./img/leave.png","./img/lock.png","./img/magical_defense.png","./img/mana.png","./img/mana_2.png","./img/mana_potion.png","./img/martial_arts.png","./img/meditation.png","./img/mika.png","./img/mine.png","./img/minor_healing_potion.png","./img/minor_mana_potion.png","./img/money.png","./img/morning.png","./img/mountain_goat.png","./img/neutral.png","./img/night.png","./img/novice_hat.png","./img/novice_robe.png","./img/novice_shoes.png","./img/novice_staff.png","./img/novice_tome.png","./img/novice_tome_page.png","./img/pickaxe.png","./img/poison.png","./img/pristine_bear_pelt.png","./img/question_mark.png","./img/quiver.png","./img/rabbit.png","./img/rabbit_fur.png","./img/rat.png","./img/rat_meat.png","./img/rat_tail.png","./img/raw_hide.png","./img/raw_meat.png","./img/reception.png","./img/red-cross.png","./img/ring_blue.png","./img/ring_green.png","./img/ring_iron.png","./img/ring_iron_blue.png","./img/ring_red.png","./img/ruined_bear_pelt.png","./img/rune.png","./img/save-bad.png","./img/save-good.png","./img/scroll.png","./img/scrolls_used_achievement.png","./img/scythe.png","./img/second_wind.png","./img/separator.png","./img/settings.png","./img/shadow.png","./img/shadow_hound.png","./img/shard_mana.png","./img/show.png","./img/silence.png","./img/skull.png","./img/sleep.png","./img/slime.png","./img/slimelord.png","./img/slimelord_earth.png","./img/slimelord_fire.png","./img/slimelord_holy.png","./img/slimelord_shadow.png","./img/slimelord_water.png","./img/slimelord_wind.png","./img/slimer.png","./img/slimer_earth.png","./img/slimer_fire.png","./img/slimer_holy.png","./img/slimer_shadow.png","./img/slimer_water.png","./img/slimer_wind.png","./img/slime_earth.png","./img/slime_fire.png","./img/slime_holy.png","./img/slime_shadow.png","./img/slime_water.png","./img/slime_wind.png","./img/speed0.png","./img/speed1.png","./img/speed2.png","./img/speed3.png","./img/spider.png","./img/spider_silk.png","./img/stone_bullet.png","./img/strength.png","./img/string.png","./img/stun.png","./img/tailoring.png","./img/talk.png","./img/talk2.png","./img/tavern.png","./img/test_armor.png","./img/throwing_stone.png","./img/time_fragment.png","./img/tower.png","./img/training_dummy.png","./img/training_sword.png","./img/tree.png","./img/twig.png","./img/undead_killed_achievement.png","./img/updates.png","./img/warthog.png","./img/water-element.png","./img/water.png","./img/water_splash.png","./img/weed.png","./img/wind.png","./img/wind_blast.png","./img/wolf.png","./img/wolf_fang.png","./img/wolf_fang_amulet.png","./img/wood.png","./img/wooden_armguard.png","./img/wooden_shield.png","./img/woodworking.png","./img/wool.png",];
+      preload(toPreload);
+
+      setInterval(() => {
+        preload(toPreload);
+      }, 5 * 60 * 1000);
+    };
+  </script>
+</html>

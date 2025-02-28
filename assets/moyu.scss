@@ -1,0 +1,113 @@
+.container {
+    color: #333;
+    border: 1px solid #ddd;
+    outline: 2px solid #ddd;
+}
+
+.box,
+.stat,
+.inventory-list,
+.message,
+.menu,
+.option,
+.loading,
+.count.active,
+.message-title {
+    background: #fff !important;
+}
+
+.loader {
+    border-top: 5px solid #999;
+}
+
+.nav-item:hover,
+.nav-item.active,
+.item {
+    background: #ddd !important;
+}
+
+.progress-bar-wrapper,
+.slot {
+    background: #ddd !important;
+}
+
+.tooltip {
+    border: 1px solid #eee !important;
+    outline: 8px solid #eee !important;
+    background: #fff !important;
+}
+
+.bottom {
+    background: #fff !important;
+    border-top: 1px solid #eee;
+}
+
+.stats {
+    border: 1px solid #eee !important;
+}
+
+.quest {
+    border: 1px solid #eee !important;
+    outline: 4px solid #eee !important;
+}
+
+.left {
+    border-right: 1px solid #eee !important;
+}
+
+.top,
+.quest {
+    background: #fff !important;
+    color: #333 !important;
+}
+
+.subtitle,
+.top,
+.menu {
+    border-bottom: 1px solid #eee !important;
+}
+
+.c-hp,
+.damage-dealt,
+.c-success,
+.c-green,
+.enter {
+    color: #02a902 !important;
+}
+
+.c-def {
+    color: #e96969;
+}
+
+.c-dr {
+    color: #e96969;
+}
+
+.c-str {
+    color: #e10b0b;
+}
+
+.c-highlight {
+    color: #f1c908;
+}
+
+.c-neutral {
+    color: #666 !important;
+}
+
+.blue .progress-bar {
+    background: #a9a9f2 !important;
+}
+
+.red .progress-bar {
+    background: #ebb5b5 !important;
+}
+
+.exp .progress-bar {
+    background: #e5acd7 !important;
+}
+
+.c-exp-lighter {
+    color: #e5acd7 !important;
+    ;
+}
