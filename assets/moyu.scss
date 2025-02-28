@@ -3,7 +3,10 @@
     border: 1px solid #ddd;
     outline: 2px solid #ddd;
 }
-
+.btn,
+.overlay{
+    color: #333 !important;
+}
 .box,
 .stat,
 .inventory-list,
@@ -12,7 +15,13 @@
 .option,
 .loading,
 .count.active,
-.message-title {
+.message-title,
+.filter,
+.filters,
+.crafting-nav,
+.vertical-nav.secondary,
+.card,
+.overlay {
     background: #fff !important;
 }
 
@@ -20,14 +29,17 @@
     border-top: 5px solid #999;
 }
 
+.progress-bar-wrapper,
+.slot,
+.filter.active,
 .nav-item:hover,
 .nav-item.active,
-.item {
-    background: #ddd !important;
-}
-
-.progress-bar-wrapper,
-.slot {
+.item,
+.achievement,
+.crafting-item,
+.btn,
+.spell-cell,
+.wrapper{
     background: #ddd !important;
 }
 
@@ -46,17 +58,23 @@
     border: 1px solid #eee !important;
 }
 
-.quest {
+.quest{
     border: 1px solid #eee !important;
     outline: 4px solid #eee !important;
 }
-
+.skill,.card,.overlay{
+    outline: 6px solid #eee !important;
+}
+.achievement{
+    outline: 3px solid #eee !important;
+}
 .left {
     border-right: 1px solid #eee !important;
 }
 
 .top,
-.quest {
+.quest,
+.skill{
     background: #fff !important;
     color: #333 !important;
 }
